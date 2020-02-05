@@ -5,7 +5,7 @@
 	using Sirenix.OdinInspector;
 
 	[AddComponentMenu("_MyCustomSystem/Events/Event Listener")]
-	public class GameEventListenerMonoBehaviour : SerializedMonoBehaviour
+	public class GameEventListener_Mb : SerializedMonoBehaviour
 	{
 		public GameEventListener gameEventListner = new GameEventListener();
 

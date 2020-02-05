@@ -5,14 +5,17 @@ using UnityEngine.Events;
 
 public class TEST : MonoBehaviour
 {
-    public UnityEvent ue;
-    public int n;
+    public SeedRandom asd;
+
+    public AbsIntVariable_So a;
+
+    private void Awake()
+    {
+        Debug.Log(a.value);
+    }
 
     private void Update()
     {
-        for(int i = 0; i < n; i++)
-        {
-            ue.Invoke();
-        }
     }
+
 }
